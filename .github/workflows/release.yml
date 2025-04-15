@@ -25,7 +25,7 @@ jobs:
         cache: pip
     - name: Get changed files
       id: changed_files
-      uses: tj-actions/changed-files@v2.0.0
+      uses: tj-actions/changed-files@v41.0.0
     - name: Install Python Deps
       run: pip install -r requirements.txt
     - name: Build Package lxgw-wenkai-lite-webfont
